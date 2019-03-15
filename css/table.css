@@ -1,0 +1,79 @@
+.nice-table {
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+}
+
+.nice-table caption {
+  color: #000;
+  font: italic 85%/1 arial, sans-serif;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.nice-table td,
+.nice-table th {
+  border-left: 1px solid #cbcbcb;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0.5em 1em;
+}
+
+.nice-table td:first-child,
+.nice-table th:first-child {
+  border-left-width: 0;
+}
+
+.nice-table thead {
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.nice-table td {
+  background-color: transparent;
+}
+
+.nice-table-odd td,
+.nice-table-striped tr:nth-child(2n-1) td {
+  background-color: #f2f2f2;
+}
+
+.nice-table-bordered td {
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.nice-table-bordered tbody > tr:last-child > td {
+  border-bottom-width: 0;
+}
+
+.nice-table-horizontal td,
+.nice-table-horizontal th {
+  border-width: 0 0 1px;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.nice-table-horizontal tbody > tr:last-child > td {
+  border-bottom-width: 0;
+}
+
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-bottom: 5px solid black;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #f00;
+}
