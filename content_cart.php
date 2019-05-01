@@ -31,7 +31,7 @@ if (!empty($_SESSION['cart'])) {
         echo '<tr><td>'. $value[2] .'</td>
         <td>$'. $value[3] .'</td>
         <td><form action="" method="POST">
-        <input type="submit" value="remove" class="" name="remove_product">
+        <input type="submit" value="-" class="form-rmProduct" name="remove_product">
         </form><td>
 
         </tr>';
@@ -43,9 +43,10 @@ if (!empty($_SESSION['cart'])) {
     echo "</tr>";
     echo "</table>";
     // button to empty cart
+    echo '<br>';
     echo '<p>';
     echo '<form action="" method="POST">';
-    echo '<input type="submit" value="Empty Cart" class="" name="empty">';
+    echo '<input type="submit" value="Empty Cart" class="form-delete" name="empty">';
     echo '</form>';
     echo '</p>';
 
@@ -68,30 +69,30 @@ if (!empty($_SESSION['cart'])) {
   </div>
   <div class="box-content">
     <div class="col-75">
-      <div class="boxe form">
-        <form action="/action_page.php">
+      <div class="boxed form">
+        <form action="">
 
 
           <div class="row">
             <div class="col-50">
               <h3>Billing Address</h3>
               <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="firstname">
+              <input type="text" id="fname" name="firstname" placeholder="">
               <label for="email"><i class="fa fa-envelope"></i> Email</label>
-              <input type="text" id="email" name="email" placeholder="john@example.com">
-              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-              <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-              <label for="city"><i class="fa fa-institution"></i> City</label>
-              <input type="text" id="city" name="city" placeholder="New York">
+              <input type="text" id="email" name="email" placeholder="">
+              <label for="adr"><i class=""></i> Address</label>
+              <input type="text" id="adr" name="address" placeholder="">
+              <label for="city"><i class=""></i> City</label>
+              <input type="text" id="city" name="city" placeholder="">
 
               <div class="row">
                 <div class="col-50">
                   <label for="state">State</label>
-                  <input type="text" id="state" name="state" placeholder="NY">
+                  <input type="text" id="state" name="state" placeholder="">
                 </div>
                 <div class="col-50">
                   <label for="zip">Zip</label>
-                  <input type="text" id="zip" name="zip" placeholder="10001">
+                  <input type="text" id="zip" name="zip" placeholder="">
                 </div>
               </div>
             </div>

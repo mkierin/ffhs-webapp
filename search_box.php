@@ -75,7 +75,7 @@
           }
       ?></select>
 
-      <input type="submit" class="search-submit" value="Search" name="SubmitButton"/>
+      <input type="submit" class="btn" value="Search" name="SubmitButton"/>
 
     </form>
   </div>

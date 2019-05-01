@@ -17,7 +17,7 @@ input.menu {
   display: inline;
   background: #fafafa;
   color: #636363;
-  width:118px;
+  width: 118px;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #757575;
@@ -26,9 +26,8 @@ input.menu {
 input.menu:hover {
   background: #fff;
   color: #000;
-	font-style:bold;
+  font-style: bold;
 }
-
 
 label {
   color: #999;
@@ -94,8 +93,6 @@ h4 {
   color: #000;
 }
 
-
-
 .shell {
   width: 960px;
   margin: 0 auto;
@@ -112,8 +109,8 @@ h4 {
 #navigation {
   float: right;
   white-space: nowrap;
-	width:724px;
-	margin-bottom: 10px;
+  width: 724px;
+  margin-bottom: 10px;
 }
 
 #sidebar {
@@ -135,9 +132,8 @@ h4 {
   margin-bottom: 10px;
 }
 .boxed {
-    padding: 1px;
-    border: solid 1px #dedede;
-    margin-bottom: 10px;
+  padding: 1px;
+  margin-bottom: 10px;
 }
 .box h2 {
   background: #7f7f7f;
@@ -191,41 +187,25 @@ h4 {
   width: 50px;
 }
 
-
 .form {
   min-height: 252px;
 }
 .form label {
-  display: block;
-  padding-bottom: 3px;
+  padding: 12px 5px 5px 0;
+  display: inline-block;
 }
 
-.form .field {
-  display: block;
-  margin-bottom: 10px;
-}
-.form .inline-field label {
-  display: inline;
-  padding: 0;
-}
-.form .inline-field .field {
-  display: inline;
-  margin: 0;
-}
-.form input.field {
-  width: 206px;
-}
-.form select.field {
-  width: 212px;
-}
-.form select.small-field {
-  width: 50px;
+.form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
 
 .form-submit {
-  width: 100px;
+  width: 100%;
   background: #4a89dc;
-
   border: none;
   color: white;
   padding: 15px 25px;
@@ -235,6 +215,38 @@ h4 {
 }
 .form-submit:hover {
   background: #357bd8;
+}
+
+.form-delete {
+  width: 20%;
+  background: #91d877;
+  padding: 8px;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-delete:hover {
+  background: #7dbc65;
+}
+
+.form-rmProduct {
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 10px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background: #7dbc65;
+
+  font-size: 10px;
+}
+.form-rmProduct:hover {
+  background: #464646;
 }
 
 #footer {
@@ -287,12 +299,8 @@ h4 {
 }
 
 .container {
-
   padding: 5px 20px 15px 20px;
-
 }
-
-
 
 .icon-container {
   margin-bottom: 20px;
@@ -301,17 +309,17 @@ h4 {
 }
 
 .btn {
-  background-color: #4CAF50;
+  background-color: #69adff;
   color: white;
   padding: 12px;
   margin: 10px 0;
   border: none;
-  width: 100%;
+  width: 50%;
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
 }
 
 .btn:hover {
-  background-color: #45a049;
+  background-color: #4592ef;
 }

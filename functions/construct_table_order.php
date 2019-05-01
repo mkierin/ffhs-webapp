@@ -46,7 +46,9 @@ function build_table($temp_data)
             $html.= '<td><p>';
             $html.='<form action="'. $_SERVER["PHP_SELF"] .'" method="get">';
             $html.='<input type="hidden" name="cart_add" value="'. $rowvalue. '">';
-            $html.='<button onclick="product_added()" type="submit" border ="0px" >';
+            //TODO fix onclick when product is added
+            //$html.='<button onclick="product_added()" type="submit" border ="0px" >';
+            $html.='<button onclick="" type="submit" border ="0px" >';
             $html.='<img src="/css/images/cart_add.png" width="30px" height="30px" border="0px" alt="Cart Button"></button>';
             $html.='</form>';
             $html.= '</p></td>';
