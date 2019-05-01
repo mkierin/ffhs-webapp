@@ -1,7 +1,7 @@
 Category;Brand;Name;Pricing;Shipping;Payment
 TV;LG;LG OLED65C8 (65", 4K, OLED);2399;no;cash
 TV;Samsung;Samsung QE55Q6FN (55", 4K, QLED, LCD);979;no;transfer
-TV;Samsung;Samsung QE65Q6FN (65", 4K, QLED, LCD);1000;yes;transfer
+TV;Samsung;Samsung QE65Q6FN (65", 4K, QLED, LCD);800;yes;transfer
 TV;LG;LG OLED55C8 (55", 4K, OLED);1399;no;transfer
 TV;Samsung;Samsung The Frame UE55LS03N (55", 4K, LCD);1499;no;transfer
 TV;Samsung;Samsung UE55NU7400 (55", 4K, LCD);699;no;transfer
@@ -13,3 +13,5 @@ Computer;Apple;Apple MacBook Pro Silver (13.30", Retina, Intel Core i5, 8GB, SSD
 Computer;Lenovo;ThinkPad E580 (15.60", Full HD, Intel Core i5-8250U, 8GB, SSD);749;no;cash
 Computer;Dell;Dell XPS 13 9370-G10YM Touch (13.30", UHD, Intel Core i7-8550U, 16GB, SSD);1699;yes;transfer
 Computer;Apple;Apple MacBook Pro Silver (13.30", Retina, Intel Core i5, 8GB, SSD);1249;yes;visa
+TV;LG;LG U884jjf;700;yes;cash
+Phone;OnePlus;OnePlus 5t 128Gb;499;yes;cash

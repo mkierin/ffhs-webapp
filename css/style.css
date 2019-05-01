@@ -11,7 +11,7 @@ body {
   color: #636363;
 }
 
-input {
+input.menu {
   font-size: 14px;
   padding: 10px 10px 10px 5px;
   display: inline;
@@ -23,9 +23,9 @@ input {
   border-bottom: 1px solid #757575;
 }
 
-input:hover {
-/*  background: #fff;
-  color: #000;*/
+input.menu:hover {
+  background: #fff;
+  color: #000;
 	font-style:bold;
 }
 
@@ -134,6 +134,11 @@ h4 {
   border: solid 1px #dedede;
   margin-bottom: 10px;
 }
+.boxed {
+    padding: 1px;
+    border: solid 1px #dedede;
+    margin-bottom: 10px;
+}
 .box h2 {
   background: #7f7f7f;
   color: #fff;
@@ -186,7 +191,38 @@ h4 {
   width: 50px;
 }
 
-.search-submit {
+
+.form {
+  min-height: 252px;
+}
+.form label {
+  display: block;
+  padding-bottom: 3px;
+}
+
+.form .field {
+  display: block;
+  margin-bottom: 10px;
+}
+.form .inline-field label {
+  display: inline;
+  padding: 0;
+}
+.form .inline-field .field {
+  display: inline;
+  margin: 0;
+}
+.form input.field {
+  width: 206px;
+}
+.form select.field {
+  width: 212px;
+}
+.form select.small-field {
+  width: 50px;
+}
+
+.form-submit {
   width: 100px;
   background: #4a89dc;
 
@@ -197,7 +233,7 @@ h4 {
   font-size: 16px;
   cursor: pointer;
 }
-.search-submit:hover {
+.form-submit:hover {
   background: #357bd8;
 }
 
@@ -219,4 +255,63 @@ h4 {
 }
 #footer span {
   padding: 0 2px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+
+  padding: 5px 20px 15px 20px;
+
+}
+
+
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
 }
